@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+body {
+    background: white;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+
+.flexboth {
+    display: flex;
+}
+
+.inputs {
+    align-content: center;
+    gap: 9px;
+}
+
+.button {
+    border: none;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
