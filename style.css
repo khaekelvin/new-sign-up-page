@@ -3,8 +3,16 @@
     padding: 0;
     font-family: 'Varela Round', sans-serif;
 }
+
+:root {
+    --main-bg-color: white;
+    --main-background-color: #604E9E; 
+    --main-border-color: #604E9E;
+    --main-button1-color: white;
+}
+
 body {
-    background: rgb(255, 255, 255);
+    background: var(--main-bg-color);
     
 }
 
@@ -51,9 +59,9 @@ form {
 }
 
 .button1 {
-  background-color: #604E9E;
-  border: #604E9E;
-  color: rgb(255, 255, 255);
+  background-color: var(--main-background-color);
+  border: var(--main-border-color);
+  color: var(--main-button1-color);
   padding: 20px;
   text-align: center;
   align-content: center;
@@ -71,7 +79,7 @@ form {
 }
 
 .buttong {
-    background-color: #fefeff;
+    background-color: var(--main-bg-color);
     padding: 20px;
     text-align: center;
     text-decoration: none;
