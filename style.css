@@ -4,30 +4,125 @@
     font-family: 'Varela Round', sans-serif;
 }
 body {
-    background: white;
+    background: rgb(255, 255, 255);
     
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px 10px 10px;
 }
 
 .flexboth {
     display: flex;
+    height: 25px;
 }
 
-.inputs {
+form {
     align-content: center;
     gap: 9px;
+    height: 200px;
 }
 
-.button {
-    border: none;
-    height: 30px;
+.container {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-left: 400px;
+    padding-top: 20px;    
+}
+
+.text-top {
+    padding-left: 408px;
+    height: 70px;
+    padding-top: 300px;
+    font-size: 20px;
+}
+
+.both {
+    padding-left: 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center;
+    
+}
+  
+.inputs {
+    margin: 7px;
+    padding: 2px;
+    width: 360px;
+    font-size: 18px;  
+    height: auto;
+}
+
+.button1 {
+  background-color: #604E9E;
+  border: #604E9E;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: flex;
+   flex-direction: column;
+   width: 360px;
+   margin: 4px 2px;
+   font-size: 16px;
+}
+
+.buttong {
+    background-color: #fefeff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 2px;
+    font-size: 16px;
+    width: 360px;
+  }
+
+.button1 p {
+    text-align: center;
+    justify-self:center ;
+}
+
+.acc {
+    padding-top: 10px;
+    padding-left: 400px;
+}
+
+.button1  p{
+    padding-left: 129px;
+}
+
+.buttong  p{
+    padding-left: 85px;
+}
+
+.left {
+    padding-left: 35px;
+}
+
+.mypass {
+    width: 360px;
+    height: 40px;
+}
+
+.myemail {
+    width: 360px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.gog img{
+    width: 40px;
+    height: 40px;
+    padding-top: 95px;
+    padding-left: 465px;
 }

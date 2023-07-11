@@ -6,36 +6,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Login Page</title>
 </head>
 <body>
+    <div class="text-top">
     <h1>Welcome Back</h1>
     <p>Welcome back! Please enter your details.</p>
+    </div>
 
     <form>
         <div class="container">
     <div class="inputs">
-        <label for="email">Email</label>
-        <input class="email" type="email" placeholder="email">
+        <p><label for="email">Email</label></p>
+        <input id="email" type="email" placeholder="Enter Your Email" class="myemail">
     </div>
+
     <br>
-    <div class="inputs">
-        <label for="password">Password</label>
-        <input class="password" type="password" placeholder="password">
 
     <div class="inputs">
+        <p><label for="password">Password</label></p>
+        <input id="password" type="password" placeholder="Enter Your Password" class="mypass">
+        </div>
+
         <div class="flexboth">
-        <input class="checkbox" type="checkbox" placeholder="checkbox">
+        <input id="checkbox" type="checkbox" placeholder="checkbox">
         <label for="remember">Remember for 30days</label>
+        <div class="left">
         <p><a href="forgot">Forgot password?</a></p>
     </div>
     </div>
-    <div>
-        <input type="button" type="button" value="Sign in">
-        <br><input type="button" type="button" value="Sign in with Google"><br>
-        <p>Dont have and account? <a href="Sign up">Sign up</a> </p>
+    
+        <div class="both">
+        <button class="button1"><p>Sign in</p></button>
+        </div>
+       
+        <div class="google">
+            <button class="buttong"><p>Sign in with Google</p></button>
+            </div>
+        </div>
     </div>
+    <div class="gog">
+    <img src="https://img.icons8.com/color/16/000000/google-logo.png">
+</div>
+    
+        
+
+    
+        <div class="acc">
+            <p>Dont have and account? <a href="Sign up">Sign up</a></p>
+        </div>
     </div>
 </div>
 </form>
