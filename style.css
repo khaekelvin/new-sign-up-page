@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -9,77 +9,74 @@
     --main-background-color: #604E9E; 
     --main-border-color: #604E9E;
     --main-button1-color: white;
+    --white-back-color: white;
 }
 
 body {
-    background: var(--main-bg-color);
-    
-}
-
-.flexboth {
-    display: flex;
-    height: 25px;
-}
-
-form {
-    align-content: center;
-    gap: 9px;
-    height: 200px;
+    background-color: var(--main-bg-color);
+    font-family: Arial, sans-serif;
 }
 
 .container {
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding-left: 400px;
-    padding-top: 20px;    
-}
-
-.text-top {
-    padding-left: 408px;
-    height: 70px;
-    padding-top: 300px;
-    font-size: 20px;
-}
-
-.both {
-    padding-left: 0;
-    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 300px;
 }
-  
+
+.etext {
+    font-size: large;
+    margin: auto;
+}
+
+.ptext {
+    font-size: large;
+}
+
 .inputs {
-    margin: 7px;
-    padding: 2px;
-    width: 360px;
+    padding: 5px;
     font-size: 18px;  
-    height: auto;
+}
+
+.myemail {
+    width: 360px;
+    height: 40px;
+}
+
+.mypass {
+    width: 360px;
+    height: 40px;
+}
+
+.button1 p {
+    padding-left: 130px;
+}
+
+.buttong p {
+    padding-left: 80px;
 }
 
 .button1 {
-  background-color: var(--main-background-color);
-  border: var(--main-border-color);
-  color: var(--main-button1-color);
-  padding: 20px;
-  text-align: center;
-  align-content: center;
-  text-decoration: none;
-  display: flex;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 12px;
-  box-sizing: border-box;
-  display: flex;
-   flex-direction: column;
-   width: 360px;
-   margin: 4px 2px;
-   font-size: 16px;
+    background-color: var(--main-background-color);
+    border: var(--main-border-color);
+    padding: 20px;
+    color: var(--white-back-color);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 2px;
+    font-size: 16px;
+    width: 360px;
 }
 
 .buttong {
-    background-color: var(--main-bg-color);
+    background-color: var(--white-back-color);
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -93,51 +90,58 @@ form {
     margin: 4px 2px;
     font-size: 16px;
     width: 360px;
-  }
+}
 
-.button1 p {
-    text-align: center;
-    justify-self:center ;
+.acc a{
+    text-decoration: none;
+}
+
+h1 {
+    padding-left: 6px;
+}
+
+.head {
+    padding-left: 6px;
+}
+
+.both a {
+    padding-left: 55px;
+    text-decoration: none;
 }
 
 .acc {
-    padding-top: 10px;
-    padding-left: 400px;
+    padding-left: 70px;
 }
 
-.button1  p{
-    padding-left: 129px;
-}
+@media screen and (max-width: 600px) {
+    .right img{
+      display: none;
+    }
+    .top img{
+      display: block;
+    }
+  }
 
-.buttong  p{
-    padding-left: 85px;
-}
+  @media screen and (min-width: 600px) {
+    .top img{
+      display: none;
+    }
+    .right img{
+      display: block;
+    }
+  }
 
-.left {
-    padding-left: 35px;
-}
+  @media screen and (max-width: 600px){
+    .container{
+        padding-top: 100px;
+    }
+  }
 
-.mypass {
-    width: 360px;
-    height: 40px;
-}
-
-.myemail {
-    width: 360px;
-    height: 40px;
-    box-sizing: border-box;
-}
-
-.gog img{
-    width: 40px;
-    height: 40px;
-    padding-top: 95px;
-    padding-left: 465px;
-}
-
-.imagee {
-    width: 20px;
-    height: 30px;
-    padding-left: 800px;
-    padding-top: 10px;
-}
+  @media screen and (max-width: 600px){
+    .top img{
+        padding-top: 100px;
+        padding-left: 150px;
+        width: 450px;
+        height: 400px;
+    }
+  }
