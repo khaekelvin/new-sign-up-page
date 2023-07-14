@@ -25,12 +25,11 @@ body {
 }
 
 .etext {
-    font-size: large;
-    margin: auto;
+    font-size: medium;
 }
 
 .ptext {
-    font-size: large;
+    font-size: medium;
 }
 
 .inputs {
@@ -41,11 +40,15 @@ body {
 .myemail {
     width: 360px;
     height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
 .mypass {
     width: 360px;
     height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
 .button1 p {
@@ -145,3 +148,18 @@ h1 {
         height: 400px;
     }
   }
+
+  .both {
+    display: flex;
+    flex-direction: row;
+  }
+
+.checkk {
+    padding-left: 8px;
+}
+
+.buttong img {
+    margin: 0;
+    margin-right: 5px;
+}
+
