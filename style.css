@@ -21,7 +21,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 300px;
+    align-items: center;
+    height: 100vh;
+   
 }
 
 .etext {
