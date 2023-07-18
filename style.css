@@ -6,8 +6,8 @@
 
 :root {
     --main-bg-color: white;
-    --main-background-color: #604E9E; 
-    --main-border-color: #604E9E;
+    --main-background-color: #604e9e;
+    --main-border-color: #604e9e;
     --main-button1-color: white;
     --white-back-color: white;
 }
@@ -23,7 +23,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-   
 }
 
 .etext {
@@ -36,7 +35,7 @@ body {
 
 .inputs {
     padding: 5px;
-    font-size: 18px;  
+    font-size: 18px;
 }
 
 .myemail {
@@ -97,8 +96,10 @@ body {
     width: 360px;
 }
 
-.acc a{
+.acc a {
     text-decoration: none;
+    color: var(--main-background-color);
+    font-weight: bold;
 }
 
 h1 {
@@ -119,31 +120,30 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-    .right img{
-      display: none;
+    .right img {
+        display: none;
     }
+}
 
-  }
-
-  @media screen and (max-width: 600px){
-    .container{
+@media screen and (max-width: 600px) {
+    .container {
         padding-top: 100px;
     }
-  }
+}
 
-  @media screen and (max-width: 600px){
-    .top img{
+@media screen and (max-width: 600px) {
+    .top img {
         padding-top: 100px;
         padding-left: 150px;
         width: 450px;
         height: 400px;
     }
-  }
+}
 
-  .both {
+.both {
     display: flex;
     flex-direction: row;
-  }
+}
 
 .checkk {
     padding-left: 8px;
@@ -152,4 +152,9 @@ h1 {
 .buttong img {
     margin: 0;
     margin-right: 5px;
+}
+
+.forgot {
+    color: var(--main-background-color);
+    font-weight: bold;
 }
