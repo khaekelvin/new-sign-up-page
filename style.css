@@ -122,18 +122,7 @@ h1 {
     .right img{
       display: none;
     }
-    .top img{
-      display: block;
-    }
-  }
 
-  @media screen and (min-width: 600px) {
-    .top img{
-      display: none;
-    }
-    .right img{
-      display: block;
-    }
   }
 
   @media screen and (max-width: 600px){
@@ -164,4 +153,3 @@ h1 {
     margin: 0;
     margin-right: 5px;
 }
-
