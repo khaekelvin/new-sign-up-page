@@ -1,160 +1,162 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --main-bg-color: white;
-    --main-background-color: #604e9e;
-    --main-border-color: #604e9e;
-    --main-button1-color: white;
-    --white-back-color: white;
+  --main-bg-color: white;
+  --main-background-color: #604e9e;
+  --main-border-color: #604e9e;
+  --main-button1-color: white;
+  --white-back-color: white;
 }
 
 body {
-    background-color: var(--main-bg-color);
-    font-family: Arial, sans-serif;
+  background-color: var(--main-bg-color);
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .etext {
-    font-size: medium;
+  font-size: medium;
 }
 
 .ptext {
-    font-size: medium;
+  font-size: medium;
 }
 
 .inputs {
-    padding: 5px;
-    font-size: 18px;
+  padding: 5px;
+  font-size: 18px;
 }
 
 .myemail {
-    width: 360px;
-    height: 40px;
-    margin-top: 10px;
-    padding-left: 10px;
+  width: 360px;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
 }
 
 .mypass {
-    width: 360px;
-    height: 40px;
-    margin-top: 10px;
-    padding-left: 10px;
+  width: 360px;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
 }
 
 .button1 p {
-    padding-left: 130px;
+  padding-left: 130px;
 }
 
 .buttong p {
-    padding-left: 80px;
+  padding-left: 80px;
 }
 
 .button1 {
-    background-color: var(--main-background-color);
-    border: var(--main-border-color);
-    padding: 20px;
-    color: var(--white-back-color);
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    margin: 4px 2px;
-    font-size: 16px;
-    width: 360px;
+  background-color: var(--main-background-color);
+  border: var(--main-border-color);
+  padding: 20px;
+  color: var(--white-back-color);
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 4px 2px;
+  font-size: 16px;
+  width: 360px;
 }
 
 .buttong {
-    background-color: var(--white-back-color);
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 12px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    margin: 4px 2px;
-    font-size: 16px;
-    width: 360px;
+  background-color: var(--white-back-color);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 4px 2px;
+  font-size: 16px;
+  width: 360px;
+  font-weight: bold;
 }
 
 .acc a {
-    text-decoration: none;
-    color: var(--main-background-color);
-    font-weight: bold;
+  text-decoration: none;
+  color: var(--main-background-color);
+  font-weight: bold;
 }
 
 h1 {
-    padding-left: 6px;
+  padding-left: 6px;
 }
 
 .head {
-    padding-left: 6px;
+  padding-left: 6px;
 }
 
 .both a {
-    padding-left: 55px;
-    text-decoration: none;
+  padding-left: 55px;
+  text-decoration: none;
 }
 
 .acc {
-    padding-left: 70px;
+  padding-left: 70px;
 }
 
 @media screen and (max-width: 600px) {
-    .right img {
-        display: none;
-    }
+  .right img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .container {
-        padding-top: 100px;
-    }
+  .container {
+    padding-top: 100px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .top img {
-        padding-top: 100px;
-        padding-left: 150px;
-        width: 450px;
-        height: 400px;
-    }
+  .top img {
+    padding-top: 100px;
+    padding-left: 150px;
+    width: 450px;
+    height: 400px;
+  }
 }
 
 .both {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .checkk {
-    padding-left: 8px;
+  padding-left: 8px;
+  font-weight: bold;
 }
 
 .buttong img {
-    margin: 0;
-    margin-right: 5px;
+  margin: 0;
+  margin-right: 5px;
 }
 
 .forgot {
-    color: var(--main-background-color);
-    font-weight: bold;
+  color: var(--main-background-color);
+  font-weight: bold;
 }
