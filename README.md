@@ -13,6 +13,4 @@ This repository contains the code for converting a Figma sign up design into a w
 ![510491deab7bbf0c8713cf38c1cc146c](https://github.com/khaekelvin/new-sign-up-page/assets/130221570/32bfabbe-aa28-4d6a-adae-b281db5b2b48)
 
 ## Final Result
-![final](https://github.com/khaekelvin/new-sign-up-page/assets/130221570/dd4fde92-bcc7-416a-bec7-307e33c0821c)
-
-
+![lasssssssssssssst](https://github.com/khaekelvin/new-sign-up-page/assets/130221570/3f7672ea-e914-41ed-8ca3-14820b96971e)
